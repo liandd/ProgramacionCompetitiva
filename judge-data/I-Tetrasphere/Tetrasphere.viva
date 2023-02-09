@@ -1,0 +1,3 @@
+Ax:double (0 < Ax <= 10)
+	Bx:double (0 <= Bx <= 10) By:double (0 < By <= 10)
+	Cx:double (0 <= Cx <= 10) Cy:double (0 <= Cy <= 10) Cz:double (0 < Cz <= 10);

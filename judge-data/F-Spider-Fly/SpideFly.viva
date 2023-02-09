@@ -1,0 +1,5 @@
+w:double h:double l:double (0 < w <= 30, 0 < h <= 30, 0 < l <= 30);
+xs:double ys:double zs:double (0 <= xs <= w, 0 <= ys <= h, 0 <= zs <= l,
+	xs == 0 || xs == w || ys == 0 || ys == h || zs == 0 || zs == l);
+xf:double yf:double zf:double (0 <= xf <= w, 0 <= yf <= h, 0 <= zf <= l,
+	xf == 0 || xf == w || yf == 0 || yf == h || zf == 0 || zf == l);

@@ -1,0 +1,18 @@
+#!/bin/bash
+for file in [A-O]-*
+do
+	echo "<tr>"
+	echo ' <td><a href="'judge-data/$file/$file.pdf'">'$file'</a> </td>'
+	echo ' <td>'
+	if cd $file/solutions
+	then
+		for src in *
+		do
+			echo '  <a href="judge-data/'$file/solutions/$src'">'$src'</a> <br>'
+		done
+		cd ../..
+	fi
+	echo ' </td>'
+	echo ' <td><a href="'judge-data/$file/judge'">Input/Output</a> </td>'
+	echo "</tr>"
+done
