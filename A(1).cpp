@@ -41,7 +41,7 @@ int t,n,b,d;
 		 for(int i=0;i<n;i++){
 			sum+=a1[i];	
         }
-        
+       
         if(cont<*maxi){
             cout<<"MOREPROBLEMS\n";
         }else{
